@@ -1,13 +1,12 @@
 import './App.css';
 import ClickCounter from './ClickCounter';
 import HoverCounter from './HoverCounter';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h5>Higher Order Component</h5>
-      </header>
+      <Header />
       <br/>
       <body className="App-body">
       <ClickCounter className="App-clickcounter"/>
